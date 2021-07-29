@@ -72,6 +72,9 @@ h6 {
     background-color: #FFF !important; }
 .txtred {
     color: #cb251e !important; }
+.txtred_r {
+    color: #cb251e !important; 
+    text-align: right;  }
 .bgred {
     color: #cb251e !important; }
 .dpright{
