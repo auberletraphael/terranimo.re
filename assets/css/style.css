@@ -92,6 +92,21 @@ h6 {
     .dpright{
       margin-left: 30% !important;
       width: 75% !important;} }
+.dpbottom{
+  margin-bottom: 50% !important;
+  width: 100% !important;}
+  @media (max-width: 1100px) {
+    .dpright{
+      margin-left: 40% !important;
+      width: 90% !important;} }
+  @media (max-width: 880px) {
+    .dpright{
+      margin-left: 30% !important;
+      width: 90% !important;} }
+  @media (max-width: 578px) {
+    .dpright{
+      margin-left: 30% !important;
+      width: 75% !important;} }
 h1 {
   font-size: 48px; }
 
