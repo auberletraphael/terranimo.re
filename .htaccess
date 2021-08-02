@@ -3,4 +3,5 @@
     Header always append X-Frame-Options sameorigin
     Header set x-xss-protection "1; mode=block"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Content-Security-Policy "default-src 'none'; frame-src 'self' ; object-src 'none' ; img-src terranimo.re www.terranimo.re ; connect-src 'self'; script-src terranimo.re www.terranimo.re ; script-src-elem * ; style-src 'self' fonts.googleapis.com 'unsafe-inline' ; style-src-elem * ; font-src 'self' fonts.gstatic.com ; frame-ancestors 'self' ; form-action 'self' ; base-uri 'self' ; "
 </IfModule>
